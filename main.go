@@ -15,10 +15,6 @@ func newApiConfig() apiConfig {
 	return apiConfig{FileServerHits: 0}
 }
 
-type chirp struct {
-	Body string `json:"body"`
-}
-
 func main() {
 	const filepathRoot = "."
 	const port = "8080"
